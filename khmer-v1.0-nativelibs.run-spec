@@ -1,0 +1,7 @@
+run_type = build
+inputs = khmer-build-v1.0-nativelibs.inputs,virtualenv.inputs,khmer-fix-system-libs.inputs
+remote_task = build-v1.0-nativelibs.sh
+platforms = x86_64_Debian6,x86_64_Debian7,x86_64_Fedora19,x86_64_Fedora20,x86_64_MacOSX7,x86_64_MacOSX8,x86_64_RedHat6,x86_64_RedHat7,x86_64_SL6,x86_64_Ubuntu10,x86_64_Ubuntu12
+#x86_64_Windows7,x86_64_Windows8
+project = khmer
+project_version = 1.1~nativelibs

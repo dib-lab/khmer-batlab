@@ -1,0 +1,3 @@
+method = scp
+scp_file = ~/khmer/khmer-v1.1-seqan.tar.gz
+untar = true

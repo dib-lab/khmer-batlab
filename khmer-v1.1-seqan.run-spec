@@ -1,0 +1,7 @@
+run_type = build
+inputs = khmer-build-v1.0.inputs,virtualenv.inputs,khmer-v1.1-seqan.inputs
+remote_task = build-v1.0.sh
+platforms = x86_64_MacOSX7,x86_64_MacOSX8
+#platforms = x86_64_Debian6,x86_64_Debian7,x86_64_Fedora19,x86_64_Fedora20,x86_64_MacOSX7,x86_64_MacOSX8,x86_64_RedHat6,x86_64_RedHat7,x86_64_SL6,x86_64_Ubuntu10,x86_64_Ubuntu12,x86_64_Ubuntu14
+project = khmer
+project_version = 1.1-seqan
